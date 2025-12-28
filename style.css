@@ -25,6 +25,7 @@ body {
     overflow-x: hidden;
     -ms-overflow-style: none;
     min-height: 100dvh;
+    font-size: clamp(14px, 2vw + 10px, 16px);
 }
 
 body::-webkit-scrollbar{
@@ -266,4 +267,5 @@ footer {
     background: linear-gradient(#00000000, #00000080);
     color: white;
     padding: 0px 20px;
+
 }
